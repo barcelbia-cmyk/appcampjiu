@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
 <title>TT Team Jiu-Jitsu — Painel do Campeonato</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -38,9 +38,7 @@
   header.top{
     padding:22px 18px 16px;
     border-bottom:2px solid var(--line);
-    position:sticky; top:0; z-index:20;
-    background:rgba(10,11,8,0.96);
-    backdrop-filter:blur(6px);
+    background:var(--bg);
   }
   .brand-row{display:flex; align-items:center; justify-content:space-between; gap:10px; flex-wrap:wrap;}
   .brand-eyebrow{
@@ -698,6 +696,7 @@
     {id:'a26', cat:'adultos', name:'João Cogrossi (Menor)', time:'17:45', area:'Área 6', total:2},
     // Kids
     {id:'k01', cat:'kids', name:'Daniel Gabillan', time:'15:09', area:'Área 3', total:1},
+    {id:'k08', cat:'kids', name:'Mariana Vidal Gomes', time:'14:45', area:'Área 7', total:2},
     {id:'k02', cat:'kids', name:'Arthur dos Santos', time:'16:15', area:'Área 4', total:2},
     {id:'k03', cat:'kids', name:'Manu', time:'16:45', area:'Área 9', total:1},
     {id:'k04', cat:'kids', name:'Livia', time:'16:57', area:'Área 8', total:2},
